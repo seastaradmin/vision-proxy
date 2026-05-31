@@ -1,0 +1,18 @@
+{
+  "name": "vision-proxy",
+  "owner": {
+    "name": "Ping",
+    "url": "https://github.com/seastaradmin"
+  },
+  "plugins": [
+    {
+      "name": "vision-proxy",
+      "source": "./.claude-plugin",
+      "description": "Smart proxy for Claude Code + third-party Anthropic APIs — auto-routes images to vision models, cleans model names, streams SSE. Zero dependencies.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Ping"
+      }
+    }
+  ]
+}

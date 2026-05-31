@@ -1,0 +1,24 @@
+{
+  "name": "vision-proxy",
+  "version": "1.0.0",
+  "description": "Smart proxy for Claude Code + third-party Anthropic APIs — auto-routes images to vision models, cleans model names, streams SSE.",
+  "author": {
+    "name": "Ping"
+  },
+  "license": "MIT",
+  "commands": [
+    "./commands/setup.md",
+    "./commands/status.md",
+    "./commands/stop.md"
+  ],
+  "keywords": [
+    "proxy",
+    "vision",
+    "anthropic",
+    "mimo",
+    "model-routing",
+    "sse",
+    "third-party-api"
+  ],
+  "repository": "https://github.com/seastaradmin/vision-proxy"
+}
