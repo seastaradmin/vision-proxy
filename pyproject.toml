@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vision-proxy"
+version = "1.0.0"
+description = "Zero-dependency transparent proxy for routing Claude Code to third-party Anthropic-compatible APIs with smart model routing and vision support"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.7"
+authors = [
+    {name = "Ping"}
+]
+keywords = ["claude-code", "anthropic", "proxy", "vision", "mimo"]
+
+[project.urls]
+Homepage = "https://github.com/ping/vision-proxy"
+Repository = "https://github.com/ping/vision-proxy"
+
+[project.scripts]
+vision-proxy = "vision-proxy:main"
